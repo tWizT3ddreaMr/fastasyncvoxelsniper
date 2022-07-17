@@ -22,7 +22,7 @@ repositories {
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-newest:1.10"))
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.11"))
     // Platform expectations
     compileOnly("io.papermc.paper:paper-api")
     compileOnly("org.apache.logging.log4j:log4j-api")
@@ -43,7 +43,7 @@ dependencies {
 }
 
 tasks.compileJava.configure {
-    options.release.set(11)
+    options.release.set(17)
 }
 
 configurations.all {
