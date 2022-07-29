@@ -22,7 +22,7 @@ repositories {
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-newest:1.11"))
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.12"))
     // Platform expectations
     compileOnly("io.papermc.paper:paper-api")
     compileOnly("org.apache.logging.log4j:log4j-api")
@@ -51,7 +51,7 @@ configurations.all {
 }
 
 group = "com.intellectualsites.fastasyncvoxelsniper"
-version = "2.5.1-SNAPSHOT"
+version = "2.6.1-SNAPSHOT"
 
 bukkit {
     name = "FastAsyncVoxelSniper"
