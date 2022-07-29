@@ -9,3 +9,7 @@ out/
 target/
 docs/
 .DS_Store
+/bin/
+.project
+.classpath
+*.prefs
